@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,6 +30,13 @@ namespace Prog_122_W23_Lecture_15_TopicReview
         {
             CheckBox cb = (CheckBox)sender;
             cb.Content = cb.IsChecked.Value;
+        }
+
+           
+        private void btDisplay(object sender, RoutedEventArgs e)
+        {
+            Button Display1 = (Button)sender;
+            runDisplay.Text = Display1.Content.ToString();            
         }
 
 

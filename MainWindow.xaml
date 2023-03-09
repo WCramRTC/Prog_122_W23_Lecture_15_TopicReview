@@ -20,6 +20,9 @@
             <CheckBox x:Name="cbThree" Content="CheckBox" Canvas.Left="27" Canvas.Top="95" HorizontalAlignment="Center" VerticalAlignment="Top" Click="CheckedEvent"/>
             <CheckBox x:Name="cbFour" Content="CheckBox" Canvas.Left="27" Canvas.Top="131" HorizontalAlignment="Center" VerticalAlignment="Top" Click="CheckedEvent"/>
         </Canvas>
+        <Button x:Name="btDisplay1" Content="Display Result1" Height="35" Canvas.Left="26" Canvas.Top="229" Width="179" Click="btDisplay"/>
+        <Button x:Name="btDisplay2" Content="Display Result2" Height="35" Canvas.Left="26" Canvas.Top="282" Width="179" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btDisplay"/>
+        <Button x:Name="btDisplay3" Content="Display Result 3" Height="35" Canvas.Left="26" Canvas.Top="340" Width="179" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btDisplay"/>
 
     </Canvas>
 </Window>
