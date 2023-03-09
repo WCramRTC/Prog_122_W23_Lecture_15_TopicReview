@@ -39,6 +39,12 @@ namespace Prog_122_W23_Lecture_15_TopicReview
             runDisplay.Text = Display1.Content.ToString();            
         }
 
+        private void AppendNumber(object sender, RoutedEventArgs e)
+        {
+            Button btn = (Button)sender;
+            runDisplay.Text += btn.Content;
+        }
+
 
         /*
         WPF Forms

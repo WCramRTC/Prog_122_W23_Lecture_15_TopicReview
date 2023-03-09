@@ -20,9 +20,18 @@
             <CheckBox x:Name="cbThree" Content="CheckBox" Canvas.Left="27" Canvas.Top="95" HorizontalAlignment="Center" VerticalAlignment="Top" Click="CheckedEvent"/>
             <CheckBox x:Name="cbFour" Content="CheckBox" Canvas.Left="27" Canvas.Top="131" HorizontalAlignment="Center" VerticalAlignment="Top" Click="CheckedEvent"/>
         </Canvas>
-        <Button x:Name="btDisplay1" Content="Display Result1" Height="35" Canvas.Left="26" Canvas.Top="229" Width="179" Click="btDisplay"/>
-        <Button x:Name="btDisplay2" Content="Display Result2" Height="35" Canvas.Left="26" Canvas.Top="282" Width="179" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btDisplay"/>
-        <Button x:Name="btDisplay3" Content="Display Result 3" Height="35" Canvas.Left="26" Canvas.Top="340" Width="179" HorizontalAlignment="Center" VerticalAlignment="Top" Click="btDisplay"/>
+        <Button x:Name="btDisplay1" Content="Display Result1" Height="35" Canvas.Left="26" Canvas.Top="229" Width="108" Click="btDisplay" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Button x:Name="btDisplay2" Content="Display Result2" Height="35" Canvas.Left="26" Canvas.Top="282" Width="108" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btDisplay"/>
+        <Button x:Name="btDisplay3" Content="Display Result 3" Height="35" Canvas.Left="26" Canvas.Top="340" Width="108" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btDisplay"/>
+        <Button x:Name="btnNine" Content="9" Canvas.Left="174" Canvas.Top="221" Height="51" Width="64" Click="AppendNumber"/>
+        <Button x:Name="btnEight" Content="8" Canvas.Left="249" Canvas.Top="221" Height="51" Width="64" HorizontalAlignment="Left" VerticalAlignment="Top" Click="AppendNumber"/>
+        <Button x:Name="btnSeven" Content="7" Canvas.Left="324" Canvas.Top="221" Height="51" Width="64" HorizontalAlignment="Left" VerticalAlignment="Top" Click="AppendNumber"/>
+        <Button x:Name="btnNine_Copy" Content="6" Canvas.Left="174" Canvas.Top="282" Height="51" Width="64" Click="AppendNumber" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="btnEight_Copy" Content="5" Canvas.Left="249" Canvas.Top="282" Height="51" Width="64" Click="AppendNumber" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="btnSeven_Copy" Content="4" Canvas.Left="324" Canvas.Top="282" Height="51" Width="64" Click="AppendNumber" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="btnNine_Copy1" Content="3" Canvas.Left="174" Canvas.Top="340" Height="51" Width="64" Click="AppendNumber" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="btnEight_Copy1" Content="2" Canvas.Left="249" Canvas.Top="340" Height="51" Width="64" Click="AppendNumber" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Button x:Name="btnSeven_Copy1" Content="1" Canvas.Left="324" Canvas.Top="340" Height="51" Width="64" Click="AppendNumber" HorizontalAlignment="Center" VerticalAlignment="Top"/>
 
     </Canvas>
 </Window>
