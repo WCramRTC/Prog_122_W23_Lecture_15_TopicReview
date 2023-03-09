@@ -6,7 +6,14 @@
         xmlns:local="clr-namespace:Prog_122_W23_Lecture_15_TopicReview"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Canvas Background="#FFFF9F2A">
+        <RichTextBox Height="379" Width="314" Canvas.Left="454" Canvas.Top="28" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <FlowDocument>
+                <Paragraph>
+                    <Run x:Name="runDisplay"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
 
-    </Grid>
+    </Canvas>
 </Window>
