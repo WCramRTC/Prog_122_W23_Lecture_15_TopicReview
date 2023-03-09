@@ -30,7 +30,9 @@ namespace Prog_122_W23_Lecture_15_TopicReview
         Text Box
         Button
         Label
-        RichTextBox and Layout
+        RichTextBox
+            - Added name to Run Tag
+            - Use .Text to get and set text
         List
         Classes ( Fields, Properties, Constructor, Methods )
         Selection Boxes
