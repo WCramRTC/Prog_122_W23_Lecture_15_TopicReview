@@ -27,8 +27,10 @@ namespace Prog_122_W23_Lecture_15_TopicReview
 
         private void CheckedEvent(object sender, RoutedEventArgs e)
         {
-
+            CheckBox cb = (CheckBox)sender;
+            cb.Content = cb.IsChecked.Value;
         }
+
 
         /*
         WPF Forms
@@ -42,6 +44,8 @@ namespace Prog_122_W23_Lecture_15_TopicReview
         Classes ( Fields, Properties, Constructor, Methods )
         Selection Boxes
         Checkboxes and Radio Buttons
+            - button.IsChecked.Value
+            - 
         Rich Text Box Advanced
         List View
         Images
