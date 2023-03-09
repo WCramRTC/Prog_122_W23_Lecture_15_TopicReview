@@ -14,6 +14,12 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
+        <Canvas Height="245" Width="343" Canvas.Left="10" Canvas.Top="28" HorizontalAlignment="Left" VerticalAlignment="Center" Background="#FF578EAB">
+            <CheckBox x:Name="cbOne" Content="CheckBox" Canvas.Left="27" Canvas.Top="25"/>
+            <CheckBox x:Name="cbTwo" Content="CheckBox" Canvas.Left="27" Canvas.Top="59" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <CheckBox x:Name="cbThree" Content="CheckBox" Canvas.Left="27" Canvas.Top="95" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <CheckBox x:Name="cbFour" Content="CheckBox" Canvas.Left="27" Canvas.Top="131" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        </Canvas>
 
     </Canvas>
 </Window>
